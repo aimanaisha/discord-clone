@@ -481,6 +481,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1.25rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-11 {
   margin-bottom: 2.75rem;
 }
@@ -495,6 +500,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-1 {
   margin-right: 0.25rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -559,6 +576,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-5\/12 {
   width: 41.666667%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-8\/12 {
+  width: 66.666667%;
+}
+
+.w-6\/12 {
+  width: 50%;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .grid-cols-2 {
@@ -664,8 +697,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 16px;
 }
 
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pr-7 {
+  padding-right: 1.75rem;
+}
+
+.pr-9 {
+  padding-right: 2.25rem;
+}
+
+.pr-11 {
+  padding-right: 2.75rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pl-16 {
+  padding-left: 4rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-sm {
@@ -678,8 +743,43 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.font-extralight {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .text-white {
@@ -690,6 +790,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[\#23272a\] {
   --tw-text-opacity: 1;
   color: rgb(35 39 42 / var(--tw-text-opacity));
+}
+
+.text-\[\#23252c\] {
+  --tw-text-opacity: 1;
+  color: rgb(35 37 44 / var(--tw-text-opacity));
+}
+
+.text-\[\#383940\] {
+  --tw-text-opacity: 1;
+  color: rgb(56 57 64 / var(--tw-text-opacity));
 }
 
 .transition {
