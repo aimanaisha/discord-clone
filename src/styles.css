@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Rammetto One;
+    src: url(../assets/font/RammettoOne-Regular.ttf)format("truetype");
+}
