@@ -1,0 +1,15 @@
+{
+  "name": "discord-clone",
+  "version": "1.0.0",
+  "description": "discord clone using html and tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build":"tailwindcss -i ./src/styles.css -o ./public/output.css --watch"
+
+  },
+  "author": "aiman-aisha",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.19"
+  }
+}
