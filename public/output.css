@@ -559,6 +559,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 32px;
 }
 
+.box-border {
+  box-sizing: border-box;
+}
+
+.box-content {
+  box-sizing: content-box;
+}
+
 .flex {
   display: flex;
 }
@@ -627,6 +635,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[616px\] {
   height: 616px;
+}
+
+.h-\[623px\] {
+  height: 623px;
+}
+
+.h-\[627px\] {
+  height: 627px;
+}
+
+.h-\[629px\] {
+  height: 629px;
+}
+
+.h-\[630px\] {
+  height: 630px;
 }
 
 .w-8\/12 {
@@ -709,6 +733,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded-full {
