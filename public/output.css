@@ -468,16 +468,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
-}
-
-.relative {
-  position: relative;
 }
 
 .bottom-\[430px\] {
@@ -496,24 +488,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 1300px;
 }
 
-.bottom-96 {
-  bottom: 24rem;
-}
-
-.z-10 {
-  z-index: 10;
-}
-
-.z-\[100\] {
-  z-index: 100;
-}
-
 .z-\[1000\] {
   z-index: 1000;
-}
-
-.z-\[1001\] {
-  z-index: 1001;
 }
 
 .z-\[1002\] {
@@ -587,22 +563,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 32px;
 }
 
-.box-border {
-  box-sizing: border-box;
-}
-
-.box-content {
-  box-sizing: content-box;
-}
-
 .flex {
   display: flex;
 }
 
-.h-max {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+.h-\[630px\] {
+  height: 630px;
 }
 
 .h-\[38px\] {
@@ -619,66 +585,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-px {
   height: 1px;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-\[400px\] {
-  height: 400px;
-}
-
-.h-\[600px\] {
-  height: 600px;
-}
-
-.h-\[700px\] {
-  height: 700px;
-}
-
-.h-\[620px\] {
-  height: 620px;
-}
-
-.h-\[619px\] {
-  height: 619px;
-}
-
-.h-\[618px\] {
-  height: 618px;
-}
-
-.h-\[617px\] {
-  height: 617px;
-}
-
-.h-\[616px\] {
-  height: 616px;
-}
-
-.h-\[623px\] {
-  height: 623px;
-}
-
-.h-\[627px\] {
-  height: 627px;
-}
-
-.h-\[629px\] {
-  height: 629px;
-}
-
-.h-\[630px\] {
-  height: 630px;
 }
 
 .w-8\/12 {
@@ -761,10 +667,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }
 
 .overflow-x-hidden {

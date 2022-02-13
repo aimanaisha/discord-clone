@@ -7,7 +7,9 @@
     <title>Discord | Your Place to Talk and Hang Out</title>
     <link rel="icon" href="../assets/img/title.ico">
     <link rel="stylesheet" href="output.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body class="overflow-x-hidden">
     
     <section>
@@ -50,11 +52,9 @@
         </div>
     </section>
 
-    
-
     <section>
 
-        <div class="flex h-[680px]">
+        <div class="flex h-[680px]" id="reveal">
             <div class="w-7/12 my-auto pr-16">
                 <img src="../assets/img/study-group.svg" class="ml-auto">
             </div>
@@ -66,7 +66,7 @@
             </div>
         </div>
 
-        <div class="flex h-[680px] bg-[#f6f6f6]">
+        <div class="flex h-[680px] bg-[#f6f6f6]"  id="reveal">
             <div class="w-5/12 my-auto">
                 <div class="w-1/2 ml-auto">
                     <h2 class="font-extrabold text-5xl text-[#23252c] mb-10">Where hanging out is easy</h2>
@@ -78,7 +78,7 @@
             </div>
         </div> 
 
-        <div class="flex h-[680px]">
+        <div class="flex h-[680px]"  id="reveal">
             <div class="w-7/12 my-auto pr-16">
                 <img src="../assets/img/coach.svg" class="ml-auto">
             </div>
@@ -94,7 +94,7 @@
 
     <section class="bg-[#f6f6f6] pb-[120px]">
 
-        <div class="">
+        <div  id="reveal">
             <div class="px-[40px] pb-[80px] pt-[120px] w-3/5 mx-auto text-center">
                 
                 <h2 class=" text-4xl text-[#23252c] mb-10 font-headfont2">RELIABLE TECH FOR STAYING CLOSE</h2>
@@ -185,6 +185,15 @@
             </div>
         </div>
     </section> 
+
+    <script>var reveal = document.querySelectorAll('#reveal');
+
+    ScrollReveal().reveal(reveal, {
+    delay: 350,
+    duration: 500,
+    reset: false
+});
+    </script>
 
 </body>
 </html>
